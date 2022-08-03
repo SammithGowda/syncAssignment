@@ -11,22 +11,22 @@ export const Dashbord = () => {
   };
   if (!token) {
     return (
-      <div>
-        <h1>please login first</h1>
+      <div className="Error_msg">
+        <h1>User not logged in</h1>
       </div>
     );
   }
   let Coordinates = [
-    { City: "Bangaluru", lat: 12.9716, lon: 77.5946 },
-    { City: "Pune", lat: 18.5204, lon: 73.8567 },
-    { City: "Goa", lat: 15.2993, lon: 74.124 },
-    { City: "Mumbai", lat: 19.076, lon: 72.8777 },
-    { City: "Hyderabad", lat: 17.385, lon: 78.4867 },
-    { City: "Chennai", lat: 13.0827, lon: 80.2707 },
-    { City: "Kolkata", lat: 22.5726, lon: 88.3639 },
-    { City: "Mangalore", lat: 12.9141, lon: 74.856 },
-    { City: "Paris", lat: 48.8566, lon: 2.3522 },
-    { City: "London", lat: 51.5072, lon: 0.1276 },
+    { id: 1, City: "Bangaluru", lat: 12.9716, lon: 77.5946 },
+    { id: 2, City: "Pune", lat: 18.5204, lon: 73.8567 },
+    { id: 3, City: "Goa", lat: 15.2993, lon: 74.124 },
+    { id: 4, City: "Mumbai", lat: 19.076, lon: 72.8777 },
+    { id: 5, City: "Hyderabad", lat: 17.385, lon: 78.4867 },
+    { id: 6, City: "Chennai", lat: 13.0827, lon: 80.2707 },
+    { id: 7, City: "Kolkata", lat: 22.5726, lon: 88.3639 },
+    { id: 8, City: "Mangalore", lat: 12.9141, lon: 74.856 },
+    { id: 9, City: "Paris", lat: 48.8566, lon: 2.3522 },
+    { id: 10, City: "London", lat: 51.5072, lon: 0.1276 },
   ];
   return (
     <>
@@ -39,6 +39,7 @@ export const Dashbord = () => {
         <div className="container_div">
           {Coordinates.map((el, index) => (
             <div
+              key={el.id}
               onClick={() =>
                 navigate("/mapview/parameter-data", {
                   state: { lat: el.lat, lon: el.lon },

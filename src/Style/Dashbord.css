@@ -30,3 +30,9 @@
   cursor: pointer;
   padding: 5px;
 }
+.Error_msg {
+  width: 30%;
+  height: 150px;
+  margin: auto;
+  margin-top: 50px;
+}

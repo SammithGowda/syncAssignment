@@ -1,11 +1,13 @@
 .main_login_div {
-  border: 2px solid red;
+  /* border: 2px solid red; */
   /* height: 250px; */
   text-align: center;
   width: 30%;
   position: absolute;
   top: 20%;
   left: 35%;
+  background-color: bisque;
+  border-radius: 3px;
 }
 .main_login_div > .outlined_basic {
   width: 90%;

@@ -25,8 +25,8 @@ export const Dashbord = () => {
     { id: 6, City: "Chennai", lat: 13.0827, lon: 80.2707 },
     { id: 7, City: "Kolkata", lat: 22.5726, lon: 88.3639 },
     { id: 8, City: "Mangalore", lat: 12.9141, lon: 74.856 },
-    { id: 9, City: "Paris", lat: 48.8566, lon: 2.3522 },
-    { id: 10, City: "London", lat: 51.5072, lon: 0.1276 },
+    { id: 9, City: "Delhi", lat: 28.7041, lon: 77.1025 },
+    { id: 10, City: "Kerala", lat: 10.8505, lon: 76.2711 },
   ];
   return (
     <>

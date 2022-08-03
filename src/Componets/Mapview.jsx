@@ -5,7 +5,7 @@ import { useLocation, useNavigate } from "react-router-dom";
 export const Mapview = () => {
   // const [coo, setCoo] = useState({ lat: 48.8566, lon: 2.3522 });
   const navigate = useNavigate();
-  const Zoom = 15;
+  const Zoom = 13;
   const { lat, lon } = useLocation().state;
   const coo = {
     lat: lat || 12.9716,

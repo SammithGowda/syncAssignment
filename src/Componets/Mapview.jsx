@@ -8,8 +8,8 @@ export const Mapview = () => {
   const Zoom = 13;
   const { lat, lon } = useLocation().state;
   const coo = {
-    lat: lat || 12.9716,
-    lon: lon || 77.5946,
+    lat: lat,
+    lon: lon,
   };
 
   const Token = sessionStorage.getItem("Token");

@@ -1,0 +1,23 @@
+.nav_div {
+  height: 60px;
+  border: 2px solid red;
+}
+.nav_div > button {
+  float: right;
+  height: 70%;
+  width: 5%;
+  margin: 10px 50px 0px 0px;
+}
+.container_div {
+  border: 2px solid red;
+  width: 90%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+.container_div > div {
+  border: 2px solid green;
+  height: 150px;
+}

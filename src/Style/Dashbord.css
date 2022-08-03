@@ -22,13 +22,14 @@
   margin-top: 8px;
 }
 .container_div > div {
-  border: 2px solid green;
+  /* border: 2px solid green; */
   height: 150px;
-  background-color: antiquewhite;
+  /* background-color: antiquewhite; */
   margin: 5px;
   border-radius: 5px;
   cursor: pointer;
   padding: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 .Error_msg {
   width: 30%;

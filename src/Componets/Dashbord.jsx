@@ -17,7 +17,7 @@ export const Dashbord = () => {
     );
   }
   let Coordinates = [
-    { id: 1, City: "Bangaluru", lat: 12.9716, lon: 77.5946 },
+    { id: 1, City: "Bangaluru", lat: 12.9716, lon: 77.5946, imgutl: "" },
     { id: 2, City: "Pune", lat: 18.5204, lon: 73.8567 },
     { id: 3, City: "Goa", lat: 15.2993, lon: 74.124 },
     { id: 4, City: "Mumbai", lat: 19.076, lon: 72.8777 },

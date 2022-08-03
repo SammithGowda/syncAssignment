@@ -32,7 +32,9 @@ export const Dashbord = () => {
     <>
       <div>
         <div className="nav_div">
-          <button onClick={() => logout()}>Logout</button>
+          <button className="btn" onClick={() => logout()}>
+            Logout
+          </button>
         </div>
         <div className="container_div">
           {Coordinates.map((el, index) => (
